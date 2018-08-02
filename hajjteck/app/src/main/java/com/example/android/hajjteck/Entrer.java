@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class Entrer extends AppCompatActivity {
    private TextView textView;
    private ImageView imageView;
-
+    //TEST
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
