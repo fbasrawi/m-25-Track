@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFF</color>
+    <color name="primary_darck">#273833</color>
+    <color name="transparent">#00000000</color>
+    <color name="black">#000</color>
+    <color name="lightorange">#fdf2df</color>
+    <color name="lightorangedark">#ebd6ab</color>
+    <color name="transparentWhite">#cccccc</color>
+    <color name="dark_gray">#6c6c6c</color>
+    <color name="green">#0eb384</color>
+    <color name="colorPrimary">#23A7D8</color>
+    <color name="colorPrimaryDark">#23A7D8</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="gradStart">#19AA8B</color>
+    <color name="gradStop">#23A7D8</color>
+    <color name="blue_light">#05c3f9</color>
+    <color name="blue_dark">#0691b8</color>
+    <color name="log">#10b188</color>
+</resources>
