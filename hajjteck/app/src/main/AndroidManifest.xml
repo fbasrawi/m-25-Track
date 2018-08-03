@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.android.hajjteck">
+
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
@@ -16,13 +19,16 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity android:name=".Information" />
         <activity android:name=".profile" />
         <activity android:name=".menasik" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".Login"></activity>
+        <activity android:name=".Login" />
+        <activity android:name=".Emergency" />
+        <activity android:name=".manasik2" />
+        <activity android:name=".Tasskin" />
+        <activity android:name=".Amwal"></activity>
     </application>
 
 </manifest>

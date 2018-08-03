@@ -42,7 +42,7 @@ public class menasik extends AppCompatActivity  {
 
     ListView lv;
     ArrayAdapter<String> adapter;
-    String adresse = "http://192.168.8.101/loc.php";
+    String adresse = "http://192.168.8.103/loc.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +50,7 @@ public class menasik extends AppCompatActivity  {
         setContentView(R.layout.activity_menasik);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("makan tawajod");
+        getSupportActionBar().setTitle("مكان تواجدك        ");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 

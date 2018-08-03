@@ -1,9 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".profile">
+    tools:context=".profile"
+    android:background="@drawable/background">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/white"
+        android:minHeight="?attr/actionBarSize" />
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="301dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical"
+        tools:background="#8dffffff">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:textColor="@color/black"
+            android:layout_margin="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:text="الجنسية  : جزائرية" />
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/textView5"
+            android:layout_margin="4dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="رقم بطاقة الهوية  :  1008124556" />
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/textView6"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_margin="4dp"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:text="الجنس  : ذكر " />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_margin="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/qrbare" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="102dp"
+        app:srcCompat="@drawable/photoprof" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/toolbar2"
+        android:layout_marginEnd="70dp"
+        android:text="DZA19835647525"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="101dp"
+        android:layout_marginTop="117dp"
+        android:textSize="20dp"
+        android:text="شتواني يانبس" />
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginTop="150dp"
+        android:text="18/10/1997" />
+
+
+
+
+</RelativeLayout>

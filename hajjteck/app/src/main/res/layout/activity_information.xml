@@ -1,9 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".Information">
 
-</android.support.constraint.ConstraintLayout>
+
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/white"
+            android:minHeight="?attr/actionBarSize" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            app:srcCompat="@drawable/profile" />
+
+    <LinearLayout
+        android:layout_width="295dp"
+        android:layout_height="407dp"
+        android:layout_centerInParent="true"
+
+        android:orientation="vertical">
+
+        <Button
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:id="@+id/tasskin"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="خدمة التسكين" />
+
+        <Button
+            android:id="@+id/amwal"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="المحفضة المالية" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="خدمة اتتنقل " />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="التواصل " />
+    </LinearLayout>
+
+
+</RelativeLayout>

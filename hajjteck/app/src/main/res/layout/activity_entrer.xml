@@ -21,16 +21,8 @@
             android:layout_height="200dp"
             android:layout_marginTop="150dp"
             android:layout_gravity="center"
-            app:srcCompat="@drawable/logo" />
-        <TextView
-            android:id="@+id/text_Splash"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=" Maya  Labo "
-            android:layout_gravity="center"
-            android:textSize="23sp"
-            android:textStyle="bold"
-            android:textColor="@color/white"/>
+            app:srcCompat="@drawable/logoo" />
+
     </LinearLayout>
 
 </RelativeLayout>
